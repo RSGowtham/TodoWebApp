@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(River.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    box-sizing: content-box;
+}
+#container{
+    width: max-content;
+    height: 65vh;
+    background-color: aqua;
+    backdrop-filter: blur(1rem);
+    border-radius: 0.5rem;
+    padding: 0px 2rem 1rem 2rem;
+    text-align: center;
+    box-sizing: content-box;
+}
+#container input{
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    border-style: none;
+    outline: none;
+}
+.add{
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    border-style: none;
+    outline: none;
+}
+.outbox{
+    text-align: start;
+    height: 70%;
+    background-color: aliceblue;
+    margin-top: 1rem;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
